@@ -1,0 +1,275 @@
+[
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.motoristasController",
+    "Method": "ActualizarMotoristas",
+    "RelativePath": "api/motoristas/actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "motoristaModificar",
+        "Type": "L01_2020GM604_RESTAURANTE.Models.motoristas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.motoristasController",
+    "Method": "GuardarPlato",
+    "RelativePath": "api/motoristas/AddMotorista",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "motorista",
+        "Type": "L01_2020GM604_RESTAURANTE.Models.motoristas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.motoristasController",
+    "Method": "GetCliente",
+    "RelativePath": "api/motoristas/Buscar/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.motoristasController",
+    "Method": "EliminarMotorista",
+    "RelativePath": "api/motoristas/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.motoristasController",
+    "Method": "Get",
+    "RelativePath": "api/motoristas/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.pedidosController",
+    "Method": "ActualizarPedido",
+    "RelativePath": "api/pedidos/actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pedidoModificar",
+        "Type": "L01_2020GM604_RESTAURANTE.Models.pedidos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.pedidosController",
+    "Method": "GuardarPedido",
+    "RelativePath": "api/pedidos/AddPedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedido",
+        "Type": "L01_2020GM604_RESTAURANTE.Models.pedidos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.pedidosController",
+    "Method": "EliminarPedido",
+    "RelativePath": "api/pedidos/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.pedidosController",
+    "Method": "Get",
+    "RelativePath": "api/pedidos/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.pedidosController",
+    "Method": "GetCliente",
+    "RelativePath": "api/pedidos/GetByIdCliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.pedidosController",
+    "Method": "GetMotorista",
+    "RelativePath": "api/pedidos/GetByIdMotorista/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.platosController",
+    "Method": "ActualizarPlato",
+    "RelativePath": "api/platos/actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "platoModificar",
+        "Type": "L01_2020GM604_RESTAURANTE.Models.platos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.platosController",
+    "Method": "GuardarPlato",
+    "RelativePath": "api/platos/AddPlato",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plato",
+        "Type": "L01_2020GM604_RESTAURANTE.Models.platos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.platosController",
+    "Method": "GetCliente",
+    "RelativePath": "api/platos/Buscar/{precio}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "precio",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.platosController",
+    "Method": "EliminarPlato",
+    "RelativePath": "api/platos/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.platosController",
+    "Method": "Get",
+    "RelativePath": "api/platos/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2020GM604_RESTAURANTE.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[L01_2020GM604_RESTAURANTE.WeatherForecast, L01-2020GM604-RESTAURANTE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
